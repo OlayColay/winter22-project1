@@ -1,18 +1,21 @@
-CC=gcc
+CC=g++
 CFLAGS=-I.
 DEPS=
 OBJ=server.o
-USERID=123456789
+COBJ=client.o
+USERID=005376979
 
-%.o: %.c $(DEPS)
+%.o: %.cpp $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 all: server
 server: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
+# client: $(COBJ)
+# 	$(CC) -o $@ $^ $(CFLAGS)
 
 clean:
-	rm -rf *.o server *.tar.gz
+	rm -rf *.o server client *.tar.gz
 
 dist: tarball
 tarball: clean
