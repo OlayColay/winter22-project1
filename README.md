@@ -17,4 +17,6 @@ Student ID: 005376979
 Design: A server that allows HTTP GET requests of files stored in this filepath.
 Problems: I had a very tough time getting names from files and getting the substring before '.'. I finally managed to
     find an example of readdir() that worked for me.
-Libraries: 
+Libraries: <stdio.h> <stdlib.h> <string.h> <strings.h> <errno.h> <sys/types.h> <sys/socket.h> <sys/wait.h> <netinet/in.h> 
+    <fcntl.h> <sys/stat.h> <dirent.h> <time.h> <unistd.h> <string> <iostream>
+Acknowledgements: [readdir tutorial](https://c-for-dummies.com/blog/?p=3246), Discussion 1C
