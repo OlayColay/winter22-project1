@@ -11,10 +11,10 @@ You are encouraged to host your code in private repositories on [GitHub](https:/
 `docker-cs118-run.sh` is file to setup and configure Docker container.
 `project` is folder to develop codes for future projects.
 
-## TODO
-
-    ###########################################################
-    ##                                                       ##
-    ## REPLACE CONTENT OF THIS FILE WITH YOUR PROJECT REPORT ##
-    ##                                                       ##
-    ###########################################################
+## Report
+Name: Cole Strain
+Student ID: 005376979
+Design: A server that allows HTTP GET requests of files stored in this filepath.
+Problems: I had a very tough time getting names from files and getting the substring before '.'. I finally managed to
+    find an example of readdir() that worked for me.
+Libraries: 
